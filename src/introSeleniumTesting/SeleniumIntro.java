@@ -83,7 +83,6 @@ public class SeleniumIntro {
 		
 		Trying trying = new Trying();
 		trying.whatsMyName("studentes");
-		trying.whatsMyName(null);
 		
 	
 		
