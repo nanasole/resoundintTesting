@@ -7,7 +7,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
@@ -71,18 +70,19 @@ public class SeleniumIntro {
 		//WebDriverWait wait = WebDriverWait(driver,);
 		wait.until(ExpectedConditions.visibilityOf(h1Heading));
 		
-		System.out.println( headingTeString.equals("Practice Page"));
-		AnotherClass anotherClass = new AnotherClass(driver);
-		anotherClass.selectUserName();
-		anotherClass.enterFathersName("This is the heading string to be decided");
-		
-		
-		logingGroupPage logingGroupPage = new logingGroupPage(driver);
-		
-		logingGroupPage.samuelname("Tazoh");
-		
-		Trying trying = new Trying();
-		trying.whatsMyName("studentes");
+//		System.out.println( headingTeString.equals("Practice Page"));
+//		AnotherClass anotherClass = new AnotherClass(driver);
+//		anotherClass.selectUserName();
+//		anotherClass.enterFathersName("This is the heading string to be decided");
+//		
+//		
+//		logingGroupPage logingGroupPage = new logingGroupPage(driver);
+//		
+//		logingGroupPage.samuelname("Tazoh");
+//		
+//		Trying trying = new Trying();
+//		trying.whatsMyName("studentes");
+//		//googling
 		
 	
 		
