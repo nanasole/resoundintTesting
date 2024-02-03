@@ -99,7 +99,6 @@ public class SeleniumIntro {
 
 	public String ToString(int enterTime, String personName){
 		return "Hello we are Balling till "+ enterTime +". Thank you mr. "+personName ;
-		
 	}
 
 }
